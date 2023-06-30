@@ -10,6 +10,7 @@ public partial class ManagementContext : DbContext
     {
     }
 
+    //
     public ManagementContext(DbContextOptions<ManagementContext> options)
         : base(options)
     {
